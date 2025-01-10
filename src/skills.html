@@ -3,125 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ruth's Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleSkills.css">
 </head>
 <body>
-    <header>
-        <!-- header Start -->
-        <nav class="navbar">
-          <a href="index.html" class="navbar-brand">
-            <h1><span class="text-primary">Ruth's</span>PortFolio</h1>
-          </a>
-          <div class="navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-              <a href="./home.html" class="nav-item nav-link">Home</a>
-              <a href="./about.html" class="nav-item nav-link">About</a>
-              <a href="./skills.html" class="nav-item nav-link">Skills</a>
-              <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
-              <a href="./contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="" class="btn">Hire Me</a>
-          </div>
-          <div class="menu">
-            <img src="./images/icons/menu.png" alt="">
-          </div>
-        </nav>
-      </header>
+  <header>
+    <!-- header Start -->
+    <nav class="navbar">
+      <div class="navbar-content">
+        <div class="navbar-nav">
+          <a href="../index.html" class="nav-item nav-link">Home</a>
+          <a href="./about.html" class="nav-item nav-link">About</a>
+          <a href="./skills.html" class="nav-item nav-link">Skills</a>
+          <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
+          <a href="./contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+      <div class="toogle">
+        <div class="nav_menu">
+          <span><img src="./assets/icons/menu.png" alt=""></span>
+        </div>
+        <div class="navbar-nav hidden">
+          <a href="../index.html" class="nav-item nav-link">Home</a>
+          <a href="./about.html" class="nav-item nav-link">About</a>
+          <a href="./skills.html" class="nav-item nav-link">Skills</a>
+          <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
+          <a href="./contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
       <!-- header ends here -->
 
       <!-- Skill Start -->
     <main>
       <section class="skills__section">
         <div class="skills__wrapper">
-          <div class="skills__title">
-            <h1 class="bigger__title">Skills</h1>
-            <h1 class="smaller__title">My Skills</h1>
+          <div class="text_container">
+            <h1 class="text_large">Skills</h1>
+            <h1 class="text_small">Skills</h1>
+          </div>
+          <div class="education">
+            <h2>Background</h2>
+            <div class="experience">
+              <div class="edu_desc">
+                <h3>Education</h3>
+                <ul>
+                  <li>-High School Diploma</li>
+                  <li>-Software Engineering Student</li>
+                </ul>
+              </div>
+              <div class="Exper_desc">
+                <h3>Experience</h3>
+                <ul>
+                  <li>-Hands on Projects</li>
+                </ul>
+              </div>
+            </div>
+          </div>
           </div>
           <div class="all__skills">
-            <div class="skills">
-              <div class="skill__1">
-                <div class="skill__descr">
-                  <h6 class="">HTML</h6>
-                  <h6 class="">95%</h6>
-                </div>
-                <div class="progress__bar">
-                  <div class="progress"></div>
-                </div>
+            <h3>Skills</h3>
+
+            <div class="container">
+                  <div class="progress-box">
+                      <div class="meta">
+                          <span class="title">html 5</span>
+                      </div>
+                      <div class="progress-bg-txt">
+                          <div class="progress-bg">
+                              <div class="progress-bar html-bg">
+              
+                              </div>
+                          </div>
+                          <span class="item-value">90%</span>
+                      </div>
+                  </div>
+                  <div class="progress-box">
+                      <div class="meta">
+                          <span class="title">css3 </span>
+                      </div>
+                      <div class="progress-bg-txt">
+                          <div class="progress-bg">
+                              <div class="progress-bar css-bg">
+              
+                              </div>
+                          </div>
+                          <span class="item-value">80%</span>
+                      </div>
+                  </div>
+                  <div class="progress-box">
+                      <div class="meta">
+                          <span class="title">Javascript</span>
+                      </div>
+                      <div class="progress-bg-txt">
+                          <div class="progress-bg">
+                              <div class="progress-bar py-bg">
+              
+                              </div>
+                          </div>
+                          <span class="item-value">70%</span>
+                      </div>
+                  </div>
+                  <div class="progress-box">
+                      <div class="meta">
+                          <span class="title">mysql</span>
+                      </div>
+                      <div class="progress-bg-txt">
+                          <div class="progress-bg">
+                              <div class="progress-bar sql-bg">
+              
+                              </div>
+                          </div>
+                          <span class="item-value">90%</span>
+                      </div>
+                  </div>
               </div>
-              <div class="skill__1">
-                <div class="skill__descr">
-                  <h6 class="">CSS</h6>
-                  <h6 class="">85%</h6>
-                </div>
-                <div class="progress__bar">
-                  <div class="progress"></div>
-                </div>
-              </div>
-              <div class="skill__1">
-                <div class="skill__descr">
-                  <h6 class="">PHP</h6>
-                  <h6 class="">60%</h6>
-                </div>
-                <div class="progress__bar">
-                  <div class="progress"></div>
-                </div>
-              </div>
-            </div>
-            <div class="skill__1">
-              <div class="skill__1">
-                <div class="skill__descr">
-                  <h6 class="">Javascript</h6>
-                  <h6 class="">90%</h6>
-                </div>
-                <div class="progress__bar">
-                  <div class="progress"></div>
-                </div>
-              </div>
-              <div class="skill__1">
-                <div class="skill__descr">
-                  <h6 class="">react js</h6>
-                  <h6 class="">75%</h6>
-                </div>
-                <div class="progress__bar">
-                  <div class="progress"></div>
-                </div>
-              </div>
-              <div class="skill__1">
-                <div class="skill__descr">
-                  <h6 class="">Wordpress</h6>
-                  <h6 class="">85%</h6>
-                </div>
-                <div class="progress__bar">
-                  <div class="progress"></div>
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
       </section>
     </main>
       <!-- Skill End -->
 
 
       <!-- Footer Start -->
-    <footer class="footer">
+      <footer class="footer">
         <div class="social__media">
-            <a class="social" href="#"><img src="./images/icons/facebook.png" alt=""></a>
-            <a class="social" href="#"><img src="./images/icons/instagram.png" alt=""></a>
-            <a class="social" href="#"><img src="./images/icons/github.png" alt=""></a>
-            <a class="social" href="#"><img src="./images/icons/linkedinl.png" alt=""></a>
+          <a class="social" href="#"><img src="./assets/icons/black/facebook.png" alt="facebook"></a>
+          <a class="social" href="#"><img src="./assets/icons/black/instagram.png" alt="instagram"></a>
+          <a class="social" href="https://github.com/ruth610"><img src="./assets/icons/black/github.png" alt="github"></a>
+          <a class="social" href="https://x.com/ruth_ambaw"><img src="./assets/icons/black/twitter.png" alt="twiiter"></a>
         </div>
-        <div class="privacy">
-          <a href="#">Privacy</a>
-          <span>|</span>
-          <a href="#">Terms</a>
-          <span>|</span>
-          <a href="#">FAQs</a>
-          <span>|</span>
-          <a href="#">Help</a>
-        </div>
-        <p class="copyright">All Rights Reserved. Designed by Ruth Ambaw</p>
+        <p class="copyright">©All Rights Reserved. Designed by Ruth Ambaw</p>
       </footer>
       <!-- Footer End -->
+      <script src="./js/script.js"></script>
 </body>
 </html>

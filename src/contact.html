@@ -3,29 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ruth's Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleContact.css">
 </head>
 <body>
     <!-- header Start -->
     <header>
-        <nav class="navbar">
-          <a href="index.html" class="navbar-brand">
-            <h1><span class="text-primary">Ruth's</span>PortFolio</h1>
-          </a>
-          <div class="navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-              <a href="./home.html" class="nav-item nav-link">Home</a>
-              <a href="./about.html" class="nav-item nav-link">About</a>
-              <a href="./skills.html" class="nav-item nav-link">Skills</a>
-              <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
-              <a href="./contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="" class="btn">Hire Me</a>
+      <nav class="navbar">
+        <div class="navbar-content">
+          <div class="navbar-nav">
+            <a href="../index.html" class="nav-item nav-link">Home</a>
+            <a href="./about.html" class="nav-item nav-link">About</a>
+            <a href="./skills.html" class="nav-item nav-link">Skills</a>
+            <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
+            <a href="./contact.html" class="nav-item nav-link">Contact</a>
           </div>
-          <div class="menu">
-            <img src="./images/icons/menu.png" alt="">
+        </div>
+        <div class="toogle">
+          <div class="nav_menu">
+            <span><img src="./assets/icons/menu.png" alt=""></span>
           </div>
-        </nav>
+          <div class="navbar-nav hidden">
+            <a href="../index.html" class="nav-item nav-link">Home</a>
+            <a href="./about.html" class="nav-item nav-link">About</a>
+            <a href="./skills.html" class="nav-item nav-link">Skills</a>
+            <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
+            <a href="./contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </nav>
       </header>
       <!-- header ends here -->
 
@@ -33,48 +40,50 @@
     <main>
       <section class="contact__section">
         <div class="container">
-          <div class="contact__title">
-            <h1 class="bigger__title">Contact</h1>
-            <h1 class="smaller__title">Contact Me</h1>
+          <div class="text_container">
+            <h1 class="text_small">CONTACT</h1>
+            <h1 class="text_large">CONTACT</h1>
           </div>
           <div class="contact__form">
             <form id="contactForm">
-                <label for="name">Name:</label>
-                <input
+                <div class="nameEmail">
+                  <label for="name">Name:</label>
+                  <input
                   type="text"
                   id="name"
+                  class="input"
                   placeholder="Your Name"
                   required="required"
                   data-validation-required-message="Please enter your name"
                 >
-                <label for="email">Email:</label>
+                <label for="email">Email</label>
                 <input
                   type="email"
-                  class=""
+                  class="input"
                   id="email"
                   placeholder="Your Email"
                   required="required"
                   data-validation-required-message="Please enter your email"
                 >
-                <label for="subject">Subject:</label>
+                </div>
+                <label for="subject">Subject</label>
                 <input
                   type="text"
                   id="subject"
-                  placeholder="Subject"
+                  class="input"
                   required="required"
+                  placeholder="Subject"
                   data-validation-required-message="Please enter a subject"
                 >
-                <label for="message">Message:</label>
+                <label for="message">Message</label>
                 <textarea
                   id="message"
                   placeholder="Message"
                   required="required"
                   data-validation-required-message="Please enter your message"
                 ></textarea>
-              <div>
                 <button class="btn" type="submit" id="sendMessageButton">
                   Send Message
-                </button>
               </div>
             </form>
           </div>
@@ -84,24 +93,16 @@
     <!-- Contact End -->
 
       <!-- Footer Start -->
-    <footer class="footer">
+      <footer class="footer">
         <div class="social__media">
-          <a class="social" href="#"><img src="./images/icons/facebook.png" alt=""></a>
-          <a class="social" href="#"><img src="./images/icons/instagram.png" alt=""></a>
-          <a class="social" href="#"><img src="./images/icons/github.png" alt=""></a>
-          <a class="social" href="#"><img src="./images/icons/linkedinl.png" alt=""></a>
+          <a class="social" href="#"><img src="./assets/icons/black/facebook.png" alt="facebook"></a>
+          <a class="social" href="#"><img src="./assets/icons/black/instagram.png" alt="instagram"></a>
+          <a class="social" href="https://github.com/ruth610"><img src="./assets/icons/black/github.png" alt="github"></a>
+          <a class="social" href="https://x.com/ruth_ambaw"><img src="./assets/icons/black/twitter.png" alt="twiiter"></a>
         </div>
-        <div class="privacy">
-          <a href="#">Privacy</a>
-          <span>|</span>
-          <a href="#">Terms</a>
-          <span>|</span>
-          <a href="#">FAQs</a>
-          <span>|</span>
-          <a href="#">Help</a>
-        </div>
-        <p class="copyright">All Rights Reserved. Designed by Ruth Ambaw</p>
+        <p class="copyright">©All Rights Reserved. Designed by Ruth Ambaw</p>
       </footer>
       <!-- Footer End -->
+      <script src="./js/script.js"></script>
 </body>
 </html>
